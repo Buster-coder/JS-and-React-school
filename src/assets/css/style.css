@@ -15,6 +15,12 @@
 
 }
 
+:root[data-theme="dark"] {
+    --page-bg: #0B0F19;
+    
+    --primary-text: #ffffff;
+    
+}
 
 * {
     box-sizing: border-box;
@@ -310,6 +316,12 @@ a:hover {
     font-weight: 700;
 }
 
+.contact-navigate {
+    color: var(--color-dark);
+    font-weight: 700;
+    margin-left: 10px;
+}
+
 .navigate:hover {
     color: var(--color-primary);
     text-decoration: underline;
@@ -579,7 +591,7 @@ height: 1000px;
     transform: translateY(-50%); 
     width: 20px; 
     height: 20px; 
-    background-image: url(../image/bx-check-circle.svg); 
+    background-image: url(bx-check-circle.svg); 
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -1016,6 +1028,354 @@ height: 1000px;
     cursor: pointer;
     width: 150px;
     border-radius: 0px 8px 8px 0px;
+}
+
+/* Page 8 */
+
+.eight-background{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #F3F6FF 700px, #ffffff 100px);
+    gap: 50px;
+    height: 800px;
+    width: 1200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contact-container {
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 450px;
+    justify-items: left;
+    margin-left: 100px;
+}
+
+.con-us {
+    padding-top: 70px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.emailing {
+    margin-left: 98px;
+    margin-top: 20px;
+}
+
+.emailing img {
+    margin-top: 10px;
+}
+
+.header-icon{
+    display: flex;
+    align-items: center;
+    margin-left: -80px;
+    gap: 18px
+    
+}
+
+
+
+.mail-us {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.drop-line {
+    color: #565973;
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 20px;
+}
+
+.careers {
+    margin-left: 98px;
+}
+
+.career {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.careers img {
+    margin-top: 10px;
+}
+
+.sit-ac {
+    color: #565973;
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 20px;
+}
+
+.consultation-container {
+    display: grid;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    grid-template-rows:160px 160px 160px 210px;
+    grid-template-columns: 500px;
+    justify-items: left;
+    margin-top: 110px;
+    
+}
+
+.online-con {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.full-name {
+    margin-left: 50px;
+    margin-top: 40px;
+    
+}
+
+.full-na {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.name-in {
+    border-radius: 8px 8px 8px 8px;
+    border-radius: 8px;
+    height: 52px;
+    width: 400px;
+    border: 1px solid;
+    border-color: #D4D7E5;
+    padding: 15px;
+    margin-top: -5px;
+}
+
+.mail-add {
+    margin-left: 50px;
+    margin-top: 80px;
+    
+}
+
+.the-mail {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.mail-in {
+    border-radius: 8px 8px 8px 8px;
+    border-radius: 8px;
+    height: 52px;
+    width: 400px;
+    border: 1px solid;
+    border-color: #D4D7E5;
+    padding: 15px;
+    margin-top: -5px;
+}
+
+.specialist {
+    margin-left: 50px;
+    margin-top: 60px;
+    
+}
+
+.special-ist {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.special-s {
+    border-radius: 8px 8px 8px 8px;
+    border-radius: 8px;
+    height: 52px;
+    width: 400px;
+    border: 1px solid;
+    border-color: #D4D7E5;
+    padding: 15px;
+    margin-top: -5px;
+}
+
+.appointment {
+    margin-left: 50px;
+    margin-top: 90px;
+    background-color: #6366F1;
+    border: none;
+    color: white;
+    padding: 17px;
+    cursor: pointer;
+    width: 400px;
+    border-radius: 8px 8px 8px 8px;
+    height: 50px;
+    font-family: "Manrope", sans-serif;
+}
+
+
+.ninth-background {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #ffffff;
+    height: 700px;
+    width: 1200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.map-container{
+    display: grid;
+    grid-template-rows: 480px;
+    grid-template-columns: 640px;
+    justify-items: center;
+    margin-left: -5px;
+
+}
+
+.medical-container{
+    display: grid;
+    grid-template-rows: 240px 240px;
+    grid-template-columns: 440px;
+    justify-items: left;
+    margin-right: 100px;
+}
+
+.florida-center{
+    margin-top: -20px;
+}
+
+.florida-loc{
+    font-family: "Manrope", sans-serif;
+    color: #565973;
+    font-size: 16px;
+}
+
+.florida-loc img{
+    margin-right: 10px;
+    top: 3px;
+    position: relative;
+}
+
+.florida-tel {
+    margin-top: 10px;
+    font-family: "Manrope", sans-serif;
+    color: #565973;
+    font-size: 16px;
+}
+
+.florida-tel img{
+    margin-right: 10px;
+    top: 3px;
+    position: relative;
+}
+
+.florida-hours {
+    margin-top: 10px;
+    font-family: "Manrope", sans-serif;
+    color: #565973;
+    font-size: 16px;
+}
+
+.florida-hours img{
+    margin-right: 10px;
+    top: 3px;
+    position: relative;
+}
+
+.days {
+    color: black;
+}
+
+.florida-weekend {
+    margin-top: 1px;
+    margin-left: 30px;
+    font-family: "Manrope", sans-serif;
+    color: #565973;
+    font-size: 16px;
+}
+
+.florida-web {
+    position: relative;
+    top: 10px;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+}
+
+.florida-web i {
+    margin-right: 15px;
+    position: relative;
+}
+
+.social-flo {
+    
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.social-flo img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.medical-center {
+    margin-top: -20px;
+}
+
+.medical-loc {
+    font-family: "Manrope", sans-serif;
+    color: #565973;
+    font-size: 16px;
+}
+
+.medical-loc img {
+    margin-right: 10px;
+    top: 3px;
+    position: relative;
+}
+
+.medical-tel {
+    margin-top: 10px;
+    font-family: "Manrope", sans-serif;
+    color: #565973;
+    font-size: 16px;
+}
+
+.medical-tel img{
+    margin-right: 10px;
+    top: 3px;
+    position: relative;
+}
+
+.medical-hours {
+    margin-top: 10px;
+    font-family: "Manrope", sans-serif;
+    color: #565973;
+    font-size: 16px;
+}
+
+.medical-hours img{
+    margin-right: 10px;
+    top: 3px;
+    position: relative;
+}
+
+.medical-weekend {
+    margin-top: 1px;
+    margin-left: 30px;
+    font-family: "Manrope", sans-serif;
+    color: #565973;
+    font-size: 16px;
+}
+
+.medical-web {
+    position: relative;
+    top: 10px;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+}
+
+.medical-web i {
+    margin-right: 15px;
+    position: relative;
 }
 
 

@@ -9,6 +9,8 @@ import TransferMoney from './components/TransferMoney'
 import Rewiev from './components/Rewiev'
 import FAQ from './components/FAQ'
 import Email from './components/Email'
+import Contact from './components/Contact'
+import Location from './components/Location'
 
 function App() {
   
@@ -25,6 +27,8 @@ function App() {
        <Rewiev />
        <FAQ />
        <Email />
+       <Contact />
+       <Location />
        </main>
        <Footer />
     </div>
