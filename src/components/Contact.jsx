@@ -41,27 +41,31 @@ const Contact = () => {
               <h2 className="online-con">
                 Get Online Consultation
               </h2>
-              <div className="full-name">
-                <h5 className="full-na">Full name</h5>
-              <input type="Your name" placeholer="name" className="name-in" />
-            </div>
-            </div>
-            <div className="mail-add">
-                <h5 className="the-mail">Email address</h5>
-              <input type="Your mail" placeholer="Email" className="mail-in" />
-            </div>
-            <div className="specialist">
-                <h5 className="special-ist">Specialist</h5>
-              <select name="" id=""className="special-s">
-                <option value="">Select a specialist</option>
-                <option value="">Joakim Lindh</option>
-                <option value="">Hans Mattin-Lassei</option>
-                <option value="">There Lidbom</option>
-            </select>
-            </div>
-            <button className="appointment">
-                Make an appointment
-            </button>
+              
+                  <div className="full-name">
+                        <h5 className="full-na">Name</h5>
+                        <input id="conName" type="text" placeholder="Name" className="name-in" />
+                        <p className="con-names">You need to enter a valid Full name</p>
+                    </div>
+                </div>
+                <div className="mail-add">
+                    <h5 className="the-mail">Email address</h5>
+                    <input id="conMail" type="text" placeholder="Email" className="mail-in" />
+                    <p className="con-invalid">You need to enter a valid Email</p>
+                </div>
+                <div className="specialist">
+                    <h5 className="special-ist">Specialist</h5>
+                    <select name="" id="" className="special-s">
+                        <option value="">Select a specialist</option>
+                        <option value="">Joakim Lindh</option>
+                        <option value="">Hans Mattin-Lassei</option>
+                        <option value="">There Lidbom</option>
+                    </select>
+                </div>
+                <button type="submit" id="appoint-submit" className="appointment">
+                    Make an appointment
+                </button>
+                
             </div>
         </section>
   )
