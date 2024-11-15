@@ -5,29 +5,29 @@ const Email = () => {
     const [email, setEmail] = React.useState('');
     const [error, setError] = React.useState(false);
 
-    // Handle form submission
+    
     const handleSubmit = (e) => {
       e.preventDefault();
 
-      // Check if the email is valid
+      
       if (email === '' || !email.includes('@')) {
         console.log('Invalid email');
-        setError(true); // Show error message
+        setError(true); 
         return;
       }
 
-      // Reset error if email is valid
+      
       setError(false);
-      // Proceed with form submission logic (e.g., API call)
+      
       console.log('Form submitted with email:', email);
     };
 
-    // Handle input change
+    
     const handleEmailChange = (e) => {
         const emailValue = e.target.value;
         setEmail(emailValue);
     
-        // Simple email validation regex
+        
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(emailValue)) {
             setError(true);
